@@ -7,5 +7,5 @@
 ## Team Members: 
 - Carcea Diana
 - Carcea Răzvan
-- Chirilă Gabriela Valentina
+- Chirilă Gabriela-Valentina
 - Ungurean Ana-Maria

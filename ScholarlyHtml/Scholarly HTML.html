@@ -50,10 +50,19 @@
           </ol>
         </li>
         <li><a href="#design-decisions-and-transitions"><span>7. </span>Design Decisions and Transitions</a></li>
-        <li><a href="#conclusion"><span>8. </span>Conclusion</a></li>
-        <li><a href="#references"><span>9. </span>References</a></li>
+        <li><a href="#transition-to-component-F"><span>8. </span>Transition to Component F: Figma Prototype</a></li>
+        <ol>
+          <li> <a href="#wireframe-fidelity"><span>8.1 </span>Wireframe Fidelity</a> </li>
+          <li> <a href="#interactive-elements"><span>8.2 </span>Interactive Elements</a> </li>
+          <li> <a href="#consistency"><span>8.3 </span>Consistency</a> </li>
+        </ol>
+        <li><a href="#design-patterns"><span>9. </span>Interaction Design Patterns</a></li>
+        <li><a href="#design-decisions"><span>10. </span>Design Decisions</a></li>
+        <li><a href="#accessibility-features"><span>11. </span>Accessibility Features</a></li>
+        <li><a href="#conclusion"><span>12. </span>Conclusion</a></li>
+        <li><a href="#references"><span>13. </span>References</a></li>
       </ol>
-
+     
       <dl>
         <dt>Authors:</dt>
         <dd>
@@ -70,7 +79,7 @@
     </div>
 
     <section id="abstract">
-        <h2>1. Abstract </h2>
+        <h2> Abstract </h2>
         <p> In this Scholarly HTML document, we focus on specifying the
             design and implementation of a mobile and smartwatch platform for a
             mental health application. 
@@ -79,7 +88,7 @@
 
 
     <section typeof="sa:Introduction" id="introduction" role="doc-introduction">
-      <h2><span></span>2. Introduction </h2>
+      <h2><span></span>Introduction </h2>
       <h3><span></span> Project Description</h3>
       <p>
         Mental Health Companion App (Mehe) is a smart companion assistant that keeps track of the user's mental health. From checking the level of daily exercises/movement, lieaks, and
@@ -101,7 +110,7 @@
     </section>
 
     <section typeof="sa:Persona" id="persona" role="doc-persona">
-      <h2><span></span>3. Persona</h2>
+      <h2><span></span> Persona</h2>
       <p>
 
         A persona is a fictional representation of the possible customers you might have. It is a way to model, summarize and communicate research about people who have been observed or researched in some way. Thus, a person is described as a specific person, not as a single real individual, but rather, it is synthesized from observations made on several people. Each persona represents a significant portion of real-world people and allows the designer to focus on a manageable and memorable cast of characters.
@@ -122,7 +131,7 @@
     </section>
 
     <section typeof="sa:Research" id="research" role="doc-research">
-      <h2><span></span>4. Research Tactics</h2>
+      <h2><span></span> Research Tactics</h2>
 
       <p>
           During any project, research is a crucial step in understanding the problem space and the user's needs. In our
@@ -138,8 +147,8 @@
       </p>
     </section>
 
-    <section typeof="sa:Research" id="competitive-analysis" role="doc-research">
-      <h2><span></span>4.1. Competitive Analysis</h2>
+    <subsection typeof="sa:Research" id="competitive-analysis" role="doc-research">
+      <h2><span></span>4.1 Competitive Analysis</h2>
       <p>
         We conducted a competitive analysis to understand the current landscape of mental health applications 
         and identify the key features and functionalities available in the market. The competitive analysis included
@@ -158,10 +167,10 @@
         Additionally, the competitive analysis helped us identify areas where our app can differentiate itself, 
         such as journaling features or quizzes after each meditation session to help users reflect on their progress.
       </p>
-    </section>
+    </subsection>
 
-    <section typeof="sa:Research" id="surveys" role="doc-research">
-      <h2><span></span>4.2. Survey/Questionnaire</h2>
+    <subsection typeof="sa:Research" id="surveys" role="doc-research">
+      <h2><span></span>4.2 Survey/Questionnaire</h2>
       <p> 
         We conducted a survey to gather feedback from potential users about their mental health needs and
         expectations from a mental health application. The survey included questions about the user's mental health
@@ -241,26 +250,26 @@
 
     </section>
 
-    <section typeof="sa:Storyboard" id="mobile-storyboard" role="doc-storyboard">
-      <h2><span></span>5.1. Storyboard</h2>
+    <subsection typeof="sa:Storyboard" id="mobile-storyboard" role="doc-storyboard">
+      <h2><span></span>5.1 Storyboard</h2>
       <p>
         For a better visualization of the scenarios of using the MeHe mobile application, we used the "Storyboard" method to bring to life the words on a simple page, through drawing/images/sketches.
         <br>We can say that designers are like directors who surprise different moments in which the user could use the developed application.
         <br><br>As a benchmark, we were guided by the scenarios captured by the primary persona discussed in section 3 for the creation of the images below.<br><br>
         <img src="Scholarly%20HTML_files/img/Storyboard-Smartphone1.png" alt="Storyboard-Smartphone" width="800" height="500">
       </p>
-    </section>
+    </subsection>
 
-    <section typeof="sa:Userflow" id="mobile-userflow" role="doc-userflow">
-      <h2><span></span>5.2. User Flow</h2>
+    <subsection typeof="sa:Userflow" id="mobile-userflow" role="doc-userflow">
+      <h2><span></span>5.2 User Flow</h2>
       <p>
         User flow is an important part of web and app design because it can help you comprehend how users interact with your content. By understanding user flow, you can determine what steps a user needs to take to complete a task, and how to best lead them through your content.<br><br>
         <img src="Scholarly%20HTML_files/img/User%20Flow-Smartphone.png" alt="Storyboard-Smartphone" width="700" height="950" style="display: block; margin: 0 auto;">
       </p>
-    </section>
+    </subsection>
 
-    <section typeof="sa:Sketches" id="mobile-sketches" role="doc-sketches">
-      <h2><span></span>5.3. Sketches</h2>
+    <subsection typeof="sa:Sketches" id="mobile-sketches" role="doc-sketches">
+      <h2><span></span>5.3 Sketches</h2>
       <p>
         Sketching is crucial in UI/UX design, providing benefits such as generating new ideas, visualizing concepts, promoting collaboration, and saving time. Using pencils and paper, trying multiple concepts, and using simple shapes and labels can lead to effective designs.
         <br><br>Below are some sketches of the mobile platform for the Mental Health Companion App:<br><br>
@@ -270,35 +279,35 @@
         <img src="Scholarly%20HTML_files/img/sketche-phone4.png" alt="sketche-phone4" width="700" height="350" style="display: block; margin: 0 auto;">
         <img src="Scholarly%20HTML_files/img/sketche-phone5.png" alt="sketche-phone5" width="700" height="350" style="display: block; margin: 0 auto;">
       </p>
-    </section>
+    </subsection>
 
-    <section typeof="sa:Smartwatch Platform" id="smartwatch-platform" role="doc-smartwatch">
+    <subsection typeof="sa:Smartwatch Platform" id="smartwatch-platform" role="doc-smartwatch">
       <h2><span></span>6. Smartwatch Platform</h2>
       <p>
         The smartwatch platform for the Mental Health Companion App is designed to provide users with quick and easy access to essential features and functionalities on the go. The smartwatch app complements the mobile app by offering a more streamlined and simplified user experience, tailored to the unique capabilities of smartwatches. Users can access key features such as mood tracking, guided meditation, and community support directly from their smartwatch, making it easier to stay connected and engaged with their mental health practices throughout the day.
       </p>
-    </section>
+    </subsection>
 
-    <section typeof="sa:Storyboard" id="smartwatch-storyboard" role="doc-storyboard">
-      <h2><span></span>6.1. Storyboard</h2>
+    <subsection typeof="sa:Storyboard" id="smartwatch-storyboard" role="doc-storyboard">
+      <h2><span></span>6.1 Storyboard</h2>
       <p>
         To visualize the scenarios of using the MeHe smartwatch application, we created a storyboard that captures the key interactions and features of the app. The storyboard helps us understand how users will interact with the app on a smartwatch and identify any potential usability issues or improvements. The scenarios depicted in the storyboard are based on the user flow and key features of the app, ensuring a seamless and intuitive user experience.
         <br><br>
         <img src="Scholarly%20HTML_files/img/Storyboard-Smartwatch.png" alt="Storyboard-Smartwatch" width="800" height="500">
       </p>
-    </section>
+    </subsection>
 
-    <section typeof="sa:Userflow" id="smartwatch-userflow" role="doc-userflow">
-      <h2><span></span>6.2. User Flow</h2>
+    <subsection typeof="sa:Userflow" id="smartwatch-userflow" role="doc-userflow">
+      <h2><span></span>6.2 User Flow</h2>
       <p>
         The user flow for the smartwatch platform of the Mental Health Companion App is designed to provide users with a clear and intuitive path to access key features and functionalities. The user flow outlines the steps a user will take to complete common tasks on the smartwatch app, such as tracking their mood, meditating, and engaging with the community. By mapping out the user flow, we can ensure that the app is easy to use and navigate, promoting a positive user experience.
         <br><br>
         <img src="Scholarly%20HTML_files/img/User%20Flow-Smartwatch.png" alt="User Flow-Smartwatch" width="800" height="600" style="display: block; margin: 0 auto;">
       </p>
-    </section>
+    </subsection>
 
-    <section typeof="sa:Sketches" id="smartwatch-sketches" role="doc-sketches">
-      <h2><span></span>6.3. Sketches</h2>
+    <subsection typeof="sa:Sketches" id="smartwatch-sketches" role="doc-sketches">
+      <h2><span></span>6.3 Sketches</h2>
       <p>
         By sketching out different design options, we can visualize the user interface and interactions of the smartwatch app and gather feedback from stakeholders and users.
         <br><br>The sketches below represent some of the key screens and interactions of the smartwatch platform for the Mental Health Companion App.
@@ -307,7 +316,7 @@
         <img src="Scholarly%20HTML_files/img/sketche-watch2.png" alt="sketche-watch2" width="750" height="450" style="display: block; margin: 0 auto;">
         <img src="Scholarly%20HTML_files/img/sketche-watch3.png" alt="sketche-watch3" width="750" height="450" style="display: block; margin: 0 auto;">
       </p>
-    </section>
+    </subsection>
 
     <section typeof="sa:Design" id="design-decisions-and-transitions" role="doc-design">
       <h2><span></span>7. Design Decisions and Transitions</h2>
@@ -329,7 +338,7 @@
           </ul>
         </li>
         <br>
-        <li><strong>Design Decisions for Transitions:</strong>
+        <li><strong>Design Decisions for Transitions between mobile and smartwatch platforms:</strong>
           <ul>
             <li>For transitioning between mobile and smartwatch platforms, we had to make design decisions to optimize user interactions for each device type.
               This involved adapting navigation patterns, input methods, and visual cues to suit the smaller screen size and different interaction capabilities of smartwatches,
@@ -340,9 +349,100 @@
         </li>
       </ul>
     </section>
+
+
+    <section id="transition-to-component-f">
+      <h2>8. Transition to Component F: Figma Prototype</h2>
+      <p>Moving from Component D to Component F involved several critical design decisions to ensure a seamless transition
+        from conceptual sketches and user flows to a tangible, interactive prototype. Key steps included:</p>
+      <ul>
+        <li><strong>Wireframe Fidelity:</strong> Transitioning low-fidelity sketches to high-fidelity wireframes in Figma.
+        </li>
+        <li><strong>Interactive Elements:</strong> Defining and implementing interactive components based on user flow
+          analysis.</li>
+        <li><strong>Consistency:</strong> Ensuring design consistency across different screens and components.</li>
+      </ul>
+    </section>
+    
+    <subsection id="wireframe-fidelity">
+      <h3>8.1 Wireframe Fidelity</h3>
+      <p>The transition from low-fidelity sketches to high-fidelity wireframes in Figma was a crucial step to bring our
+        initial ideas to life. This process involved:</p>
+      <ul>
+        <li><strong>Detailing Visual Elements:</strong> Adding detailed visual elements, such as typography, color schemes,
+          and iconography, to create a more realistic representation of the final product.</li>
+        <li><strong>Defining Layouts:</strong> Establishing precise layouts for both phone and smartwatch interfaces to
+          ensure a clear and organized presentation of information.</li>
+      </ul>
+    </subsection>
+    
+    <subsection id="interactive-elements">
+      <h3>8.2 Interactive Elements</h3>
+      <p>Defining and implementing interactive components was essential to simulate the user experience and validate our
+        design choices. This step included:</p>
+      <ul>
+        <li><strong>Clickable Prototypes:</strong> Creating clickable prototypes in Figma to demonstrate navigation flows
+          and interactions between different screens.</li>
+        <li><strong>Micro-interactions:</strong> Adding subtle animations and transitions to enhance user feedback and
+          engagement, such as button presses and swipe gestures.</li>
+        <li><strong>Interactive States:</strong> Designing different states for interactive elements (e.g., hover, active,
+          disabled) to provide clear feedback and improve usability.</li>
+      </ul>
+    </subsection>
+    
+    <subsection id="consistency">
+      <h3>8.3 Consistency</h3>
+      <p>Maintaining design consistency was vital to ensure a cohesive user experience across both phone and smartwatch
+        interfaces. This involved:</p>
+      <ul>
+        <li><strong>Design System:</strong> Developing a design system that includes standardized components, styles, and
+          guidelines to ensure uniformity across the project.</li>
+        <li><strong>Component Libraries:</strong> Creating reusable component libraries in Figma to streamline the design
+          process and ensure consistency in the use of elements such as buttons, forms, and navigation bars.</li>
+      </ul>
+    </subsection>
+    
+    <section id="design-patterns">
+      <h2>9. Interaction Design Patterns</h2>
+      <p>Several interaction design patterns were utilized to enhance the user experience:</p>
+      <ul>
+
+        <li><strong>Progressive Disclosure:</strong> Simplified complex interfaces by revealing additional information as
+          needed.</li>
+        <li><strong>Card Layouts:</strong> Organized content into cards to make information more digestible and visually
+          appealing.</li>
+        <li><strong>Wizard (Step-by-Step Navigation):</strong> Guided users through a series of steps to complete complex tasks,
+          ensuring they do not miss any critical parts of the process.</li>
+      </ul>
+    </section>
+    
+    <section id="design-decisions">
+      <h2>10. Design Decisions</h2>
+      <p>Several important design decisions were made during the transition to Figma:</p>
+      <ul>
+        <li><strong>Color Scheme:</strong> Chose a color scheme that is both aesthetically pleasing and accessible.</li>
+        <li><strong>Typography:</strong> Selected fonts that ensure readability across different devices.</li>
+        <li><strong>Layout:</strong> Opted for a grid-based layout to maintain alignment and balance.</li>
+        <li><strong>Navigation:</strong> Implemented a simple and intuitive navigation structure.</li>
+      </ul>
+    </section>
+    
+    <section id="accessibility-features">
+      <h2>11. Accessibility Features</h2>
+      <p>Accessibility was a critical consideration in our design process. The following features were integrated to ensure
+        an inclusive user experience:</p>
+      <ul>
+        <li><strong>Color Contrast:</strong> Verified that text and background color combinations meet WCAG contrast
+          standards.</li>
+        <li><strong>Focus Indicators:</strong> Made sure that all interactive elements have visible focus indicators to assist
+                  keyboard and screen reader users.</li>
+        <li><strong>Consistent Navigation:</strong> Maintained a consistent navigation structure across all pages to help users
+                  learn and predict how to move through the site.</li>
+      </ul>
+    </section>
     
     <section typeof="sa:Conclusion" id="conclusion" role="doc-research">
-      <h2><span></span>8. Conclusion</h2>
+      <h2><span></span>12. Conclusion</h2>
       <p>
         During this project, we learned a lot about what it takes to make an app that people really like to use. Now, we know how much focus should be on the user needs as to make the app as user-friendly as possible. 
         If we put ourselves in the user's shoes doing persona research or creating storyboards, we can understand what they need and how they would like to interact with the app. We also learned the significance of starting the app design process with simple sketches before progressing to more
@@ -351,8 +451,8 @@
 
     </section>
 
-    <section typeof="sa:References" id="references" role="doc-references">
-      <h2><span></span>9. References</h2>
+    <section  id="references" >
+      <h2><span></span>13. References</h2>
       <p>
         <ul>
           <li>
@@ -368,7 +468,7 @@
           </li>
           <br>
           <li>
-            Uset Flows:<br>
+            User Flows:<br>
             &emsp;&emsp;<a href="https://signalvnoise.com/posts/1926-a-shorthand-for-designing-ui-flows" style="text-decoration: underline;">A shorthand for designing UI flows<br></a>
             &emsp;&emsp;<a href="http://jjg.net/ia/visvocab/" style="text-decoration: underline;">A visual vocabulary for describing information architecture and interaction design<br></a>
           </li>

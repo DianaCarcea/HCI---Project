@@ -9,3 +9,6 @@
 - Carcea Răzvan
 - Chirilă Gabriela-Valentina
 - Ungurean Ana-Maria
+
+## Link Figma: 
+https://www.figma.com/design/sIazUkOSQDm4oJzEgrHxbN/Project-MeHe?node-id=0-1&t=M7Fru8KDLIeCectW-0
